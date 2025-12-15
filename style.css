@@ -1,0 +1,82 @@
+/* ریست اولیه */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+     /* رنگ پس زمینه */
+    background: linear-gradient(135deg, #350000, #740d66, #01022c);
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+}
+/* کانتینر اصلی */
+.BOX {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 40px 20px;
+}
+
+/* کارت‌ها */
+.cart {
+    width: 180px; /* همه باکس‌ها هم‌اندازه */
+    background-color: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15); /* سایه اولیه */
+    text-align: center;
+    transition: all 0.3s ease; /* انیمیشن هاور */
+    position: relative;
+    z-index: 1;
+}
+
+/* وقتی موس روی باکس میره */
+.cart:hover {
+    transform: translateY(-10px) scale(1.05); /* کمی بالا و بزرگ‌تر */
+    box-shadow: 0 0 25px 5px rgba(20, 53, 237, 0.7); /* نور زرد اطراف */
+    z-index: 10; /* جلوتر بیاد */
+}
+
+/* تصاویر داخل کارت */
+.img1 img,
+.img2 img,
+.img3 img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 14px 14px 0 0;
+}
+
+/* عنوان */
+.header1 h4,
+.header2 h4,
+.header3 h4 {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000;
+    text-shadow: 0 0 1px #000;
+}
+
+/* متن وسط */
+.pa1 p,
+.pa2 p,
+.pa3 p {
+    font-size: 12px;
+    color: #555;
+    margin: 8px 0;
+
+}
+
+/* تاریخ */
+.footer1 p,
+.footer2 p,
+.footer3 p {
+    font-size: 11px;
+    color: #999;
+    margin-bottom: 12px;
+}
