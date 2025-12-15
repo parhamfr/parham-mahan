@@ -1,4 +1,4 @@
-/* ریست اولیه */
+/* اندازه فونت مرورگر */
 * {
     margin: 0;
     padding: 0;
@@ -13,7 +13,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #fff;
 }
-/* کانتینر اصلی */
+رنگ همه باکس ها
 .BOX {
     display: flex;
     justify-content: center;
@@ -22,7 +22,7 @@ body {
     padding: 40px 20px;
 }
 
-/* کارت‌ها */
+
 .cart {
     width: 180px; /* همه باکس‌ها هم‌اندازه */
     background-color: #fff;
