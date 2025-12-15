@@ -1,19 +1,19 @@
-/* اندازه فونت مرورگر */
+/* ریست اولیه */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: B-NAZANIN;
+    font-family: sans-serif;
 }
 
 body {
-     /* رنگ پس زمینه */
-    background: linear-gradient(135deg, #350000, #740d66, #01022c);
+    /* گرادیانت گیمینگ: از بنفش تیره به آبی تیره */
+    background: linear-gradient(135deg, #2c0707, #740d66, #020462);
     min-height: 100vh;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #fff;
 }
-رنگ همه باکس ها
+/* کانتینر اصلی */
 .BOX {
     display: flex;
     justify-content: center;
@@ -22,7 +22,7 @@ body {
     padding: 40px 20px;
 }
 
-
+/* کارت‌ها */
 .cart {
     width: 180px; /* همه باکس‌ها هم‌اندازه */
     background-color: #fff;
@@ -70,7 +70,6 @@ body {
     font-size: 12px;
     color: #555;
     margin: 8px 0;
-
 }
 
 /* تاریخ */
