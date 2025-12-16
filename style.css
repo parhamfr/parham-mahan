@@ -1,19 +1,19 @@
-/* ریست اولیه */
+/* اندازه مرور گر ها */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
 }
-
+/* رنگ پس زمینه */
 body {
-    /* گرادیانت گیمینگ: از بنفش تیره به آبی تیره */
+   
     background: linear-gradient(135deg, #2c0707, #740d66, #020462);
     min-height: 100vh;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #fff;
 }
-/* کانتینر اصلی */
+/* جای باکس  ها */
 .BOX {
     display: flex;
     justify-content: center;
@@ -22,27 +22,26 @@ body {
     padding: 40px 20px;
 }
 
-/* کارت‌ها */
+/* انیمیشن باکس ها */
 .cart {
     width: 180px; /* همه باکس‌ها هم‌اندازه */
     background-color: #fff;
     border-radius: 12px;
     overflow: hidden;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.15); /* سایه اولیه */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
     text-align: center;
-    transition: all 0.3s ease; /* انیمیشن هاور */
+    transition: all 0.3s ease; 
     position: relative;
     z-index: 1;
 }
 
-/* وقتی موس روی باکس میره */
+/* بزرگ شدن باکس و نور دهی */
 .cart:hover {
-    transform: translateY(-10px) scale(1.05); /* کمی بالا و بزرگ‌تر */
-    box-shadow: 0 0 25px 5px rgba(20, 53, 237, 0.7); /* نور زرد اطراف */
-    z-index: 10; /* جلوتر بیاد */
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 0 25px 5px rgba(20, 53, 237, 0.7);
+    z-index: 10; 
 }
-
-/* تصاویر داخل کارت */
+/* تصاویر  */
 .img1 img,
 .img2 img,
 .img3 img {
@@ -52,7 +51,7 @@ body {
     border-radius: 14px 14px 0 0;
 }
 
-/* عنوان */
+/* اسم برنامه ها */
 .header1 h4,
 .header2 h4,
 .header3 h4 {
@@ -63,7 +62,7 @@ body {
     text-shadow: 0 0 1px #000;
 }
 
-/* متن وسط */
+/* متن پاراگراف */
 .pa1 p,
 .pa2 p,
 .pa3 p {
